@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/star.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Star-->
+    <div class="rate" total-value="0">
+        <div class="item" item-value="5">5★</div>
+        <div class="item" item-value="4">4★</div>
+        <div class="item" item-value="3">3★</div>
+        <div class="item" item-value="2">2★</div>
+        <div class="item" item-value="1">1★</div>
+    </div>
+    <!--Korsina-->
+    <div class="case">
+        <div class="osnovi">
+            <div class="offset">
+                <table class="table" id = "root">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th class="end">Tovar price</th>
+                            <th>Kilkist Tovara</th>
+                            <th class="end">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="basket_item">
+                            <td class="align-middle">Product 1</td>
+                            <td class="align middle price"> 1000$</td>
+                            <td class="align middle count">
+                                <div class="input_group">
+                                    <button type="button" class="btn-minus">-</button>
+                                    <input id="input" type="number" value="2" data-price = "1000" class="form-contol input" disabled>
+                                    <button type="button" class="btn-plus">+</button>
+
+                                </div>
+                            </td>
+                            <td class="align_middle_suptotal">2000$</td>
+                        </tr>
+                        <tr class="basket_item">
+                            <td class="align middle">Product 2</td>
+                            <td class="align middle price"> 2000$</td>
+                            <td class="align middle count">
+                                <div class="input_group">
+                                    <button type="button" class="btn-minus">-</button>
+                                    <input id = "input" type="number" value="5" data-price = "2000" class="form-control input" disabled>
+                                    <button type="button" class="btn-plus">+</button>
+                                </div>
+                            </td>
+                            <td class="align_middle_suptotal">10000$</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="total_price_end"> All: <span id= "totalprice"> </span>$</div>
+            </div>
+        </div>
+    </div>
+   <h1 class="first"> One </h1>
+   <h1 class="second"> Two </h1>
+   
+   <script src="styles/star.js">  </script>
+ 
+</body>
+
+</html>

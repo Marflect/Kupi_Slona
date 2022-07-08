@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <!-- Я запрещаю вам использовать  CSS !-->
+    <!--<link rel="stylesheet" href="Styles/test.css">-->
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <section class="navbar-menu">
+            <p class="name"> NAMES</p>
+            <p class="product-one">Pilososi Series 5</p>
+            <!--Здесь хочу вплывающее окно с перечнем пылесосов-->
+            <p class="product-two">Pilosoi Series 7</p>
+            <!--Здесь хочу вплывающее окно с перечнем пылесосов-->
+        </section>
+        <img src="#" alt="logo">
+        <!--Потом украду лого-->
+        <section class="navbar-search">
+            <form action="search">
+                <input type="search">
+            </form>
+            <img src="#" alt="Shopping cart"> <!-- но надо так, что бы нажимая на её всплывала корзина-->
+        </section>
+    </header>
+
+
+    <main class="homepage">
+        <section class="slide">
+            <div class="slide-container">
+                <div class="slide-item"> Pilosos Series 5(Foto Pilisosa i ego opisanie)</div>
+                <div class="slide-item"> Pilosos Series 7(Foto Pilisosa i ego opisanie)</div>
+            </div>
+            <div class="slide-button">
+                <button class="pilesos-one"></button>
+                <button class="pilesos-two"></button>
+            </div>
+        </section>
+        <section class="new-product">
+            <div class="new-product-container">
+                <div class="new-product-item"> New technology</div>
+                <div class="new-product-item"> Немного про то почему пылесос 7 ультра лучше пылесоса 7-го на 17.3%</div>
+                <div class="new-product-item"> And our Pilesos Series 7 Lite and Pilesos Series 5 Max</div>
+
+            </div>
+            <div class="new-product-button">
+                <button class="slide-one">○</button>
+                <button class="slide-two">○</button>
+                <button class="slide-three">○</button>
+
+            </div>
+        </section>
+        <section class="pluses">
+            <div class="pluses-container">
+                <div class="pluses-item"> Easy Use</div>
+                <div class="pluses-item"> alergy friendly</div>
+                <div class="pluses-item"> safe ecology</div>
+                <div class="pluses-item"> New technologies</div>
+                <div class="pluses-item"> purposeful power</div>
+            </div>
+            <div class="pluses-about">  
+                <div class="pluses-about-item"> about first pluse of pilesos</div>
+                <div class="pluses-about-item"> about second pluse of pilesos</div>
+                <div class="pluses-about-item"> about third pluse of pilesos</div>
+                <div class="pluses-about-item"> about fourth pluse of pilesos</div>
+                <div class="pluses-about-item"> about fives pluse of pilesos</div>
+            </div>
+            <div class="pluses-img">
+                <img src="#" alt="1">
+                <img src="#" alt="2">
+                <img src="#" alt="3">
+                <img src="#" alt="4">
+                <img src="#" alt="5">
+            </div>
+        </section>
+        <section class="about">
+                <p class="about-company">about company</p>
+                <p class="about-follow">Social sites </p>
+        </section>
+    </main>
+
+    <!--Вплывающую корзину тут держать же? Или к каждой странице пылесоса тоже добавить нужно?
+    Или в хедер, если иконка корзины будет там, то и из хедера она и всплывает при нажатии-->
+    <div class="busket__all">
+        <table class="basket__table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Tovar price</th>
+                    <th>Kilkist Tovara</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="basket_item">
+                    <td class="align-middle">Pilesos 1</td>
+                    <td class="align middle price"> 15000grn</td>
+                    <div class="input_group">
+                        <button type="button" class="minus">-</button>
+                        <input id="input" type="number" value="0" data-price="" class="cost" disabled>
+                        <button type="button" class="plus">+</button>
+                    </div>
+                    </td>
+                    <td class="align_middle_suptotal">summa</td>
+                </tr>
+                <tr class="basket_item">
+                    <td class="align middle">Pilesos 2</td>
+                    <td class="align middle price"> 20000grn</td>
+                    <div class="input_group">
+                        <button type="button" class="minus">-</button>
+                        <input id="input" type="number" value="0" data-price="" class="cost" disabled>
+                        <button type="button" class="plus">+</button>
+                    </div>
+                    </td>
+                    <td class="align_middle_suptotal">summa</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="total_price_end">
+            <!--in one ryad with flexbox-->
+            <p class="all"> All: <span id="totalprice">grn </span></p>
+            <p class="order"> <button type="button">Place order</button></p>
+        </div>
+    </div>
+    </main>
+    <footer class="downinfo">
+        <p>Contact us</p>
+        <p>Production </p>
+        <p>Dislocation</p>
+        <p>Information</p>
+    </footer>
+    <script src="JavaScript/test.js"> </script>
+</body>
+
+</html>

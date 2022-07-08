@@ -1,0 +1,223 @@
+html,
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #EFFACE;
+    margin: 0px;
+}
+
+.shoping-cart {
+    position: relative;
+    z-index: 6;
+    padding-bottom: 20px;
+    border-bottom: solid gray 1px;
+    width: calc(320px + (970 - 320) * ((100vw - 320px) / (1366 - 320)));
+    margin-top: 20px;
+    margin-left: calc(-50px + (300 - 0) * ((100vw - 320px) / (1366 - 320)));
+    color: black;
+}
+
+.shopping-cart__value {
+    border: solid white 0px;
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+}
+
+.shopping-cart__total {
+    border: solid white 0px;
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+}
+
+.shoping-cart__properties {
+    z-index: 10;
+    display: flex;
+}
+
+.name2 {
+    z-index: 10;
+    font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (1366 - 320)));
+    ;
+    margin-left: calc(100px + (200 - 100) * ((100vw - 320px) / (1366 - 320)));
+    color: black;
+    padding-top: 10px;
+}
+
+.cost {
+    font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (1366 - 320)));
+    ;
+    z-index: 10;
+    margin-left: calc(100px + (190 - 100) * ((100vw - 320px) / (1366 - 320)));
+    color: black;
+    padding-top: 10px;
+}
+
+.amount {
+    font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (1366 - 320)));
+    ;
+    z-index: 10;
+    margin-left: 60px;
+    color: black;
+    padding-top: 10px;
+}
+
+.shoping-cart__item {
+    z-index: 10;
+    display: flex;
+}
+
+.shoping-cart__img {
+    z-index: 10;
+    margin-left: calc(20px + (50 - 20) * ((100vw - 320px) / (1366 - 320)));
+}
+
+.shoping-cart__img__img {
+    z-index: 10;
+    height: 50px;
+    width: 50px;
+}
+
+.shoping-cart__total {
+    z-index: 10;
+    margin-left: calc(10px + (20 - 10) * ((100vw - 320px) / (1366 - 320)));
+    margin-top: 15px;
+}
+
+.shoping-cart__name__pilosos {
+    z-index: 10;
+    font-family: 'NotoSans', sans-serif;
+    font-weight: 400;
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1366 - 320)));
+    margin-right: 50px;
+    margin-left: 5px;
+}
+
+.shoping-cart__cost__pilosos {
+    z-index: 10;
+    font-family: 'NotoSans', sans-serif;
+    font-weight: 400;
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1366 - 320)));
+    margin-left: calc(0px + (20 - 0) * ((100vw - 320px) / (1366 - 320)));
+    margin-right: 20px;
+}
+
+.shopping-cart__value {
+    z-index: 10;
+    border: solid black 0px;
+    width: 40px;
+    margin-left: 30px;
+    font-family: 'NotoSans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.delivery {
+    display: flex;
+    flex-direction: row;
+    padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1366 - 320)));
+    position: relative;
+    z-index: 10;
+    color: black;
+    margin-top: 0px;
+}
+
+.delivery__pesron {
+    margin-left: calc(20px + (160 - 20) * ((100vw - 320px) / (1366 - 320)));
+    height: calc(320px + (500 - 320) * ((100vw - 320px) / (1366 - 320)));
+    width: calc(120px + (360 - 120) * ((100vw - 320px) / (1366 - 320)));
+}
+
+.delivery__ordering {
+    margin-top: 20px;
+    font-size: calc(20px + (50 - 20) * ((100vw - 320px) / (1366 - 320)));
+    ;
+    position: relative;
+    z-index: 10;
+    margin-left: calc(100px + (540 - 100) * ((100vw - 320px) / (1366 - 320)));
+    ;
+    color: black;
+}
+
+.title {
+    text-align: center;
+    font-size: calc(18px + (30 - 18) * ((100vw - 320px) / (1366 - 320)));
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.name__input__one {
+    margin-left: calc(0px + (64 - 0) * ((100vw - 320px) / (1366 - 320)));
+    width: calc(100px + (200 - 100) * ((100vw - 320px) / (1366 - 320)));
+    ;
+}
+
+.name__input__two {
+    margin-left: calc(0px + (40 - 0) * ((100vw - 320px) / (1366 - 320)));
+    width: calc(100px + (200 - 100) * ((100vw - 320px) / (1366 - 320)));
+    ;
+}
+
+.name__input__three {
+    margin-left: calc(0px + (22 - 0) * ((100vw - 320px) / (1366 - 320)));
+    width: calc(100px + (200 - 100) * ((100vw - 320px) / (1366 - 320)));
+    ;
+}
+
+.name__input__four {
+    margin-left: calc(0px + (81 - 0) * ((100vw - 320px) / (1366 - 320)));
+    width: calc(100px + (200 - 100) * ((100vw - 320px) / (1366 - 320)));
+    ;
+}
+
+.name__input__five {
+    margin-left: calc(0px + (56 - 0) * ((100vw - 320px) / (1366 - 320)));
+    width: calc(100px + (200 - 100) * ((100vw - 320px) / (1366 - 320)));
+    ;
+}
+
+.name__input__six {
+    margin-left: calc(0px + (13 - 0) * ((100vw - 320px) / (1366 - 320)));
+    width: calc(100px + (200 - 100) * ((100vw - 320px) / (1366 - 320)));
+    ;
+}
+
+.search__mail__search {
+    margin-left: 10px;
+    border-radius: 4px;
+    color: black;
+    background-color: rgb(221, 221, 221);
+    border: solid white 0px;
+    width: calc(100px + (200 - 100) * ((100vw - 320px) / (1366 - 320)));
+    ;
+}
+
+.delivering {
+    margin-left: calc(10px + (260 - 10) * ((100vw - 320px) / (1366 - 320)));
+}
+
+.acsess-delivering {
+    position: absolute;
+    margin-top: calc(550px + (450 - 550) * ((100vw - 320px) / (1366 - 320)));
+    ;
+    margin-left: calc(40px + (550 - 40) * ((100vw - 320px) / (1366 - 320)));
+    ;
+}
+
+.acsess-delivering__submit {
+    width: 220px;
+    height: 40px;
+    background-color: black;
+    color: rgb(212, 212, 255);
+    border: solid black 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    border-radius: 10px;
+}
