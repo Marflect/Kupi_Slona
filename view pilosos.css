@@ -1,0 +1,108 @@
+html,
+body {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #edfdb731;
+    margin: 0px;
+}
+
+
+.img {
+    margin-left: calc(60px + (450 - 60) * ((100vw - 320px) / (1366 - 320)));
+    margin-top: 100px;
+
+}
+
+.pilesos__img {
+    height: calc(200px + (500 - 200) * ((100vw - 320px) / (1366 - 320)));
+    width: calc(200px + (500 - 200) * ((100vw - 320px) / (1366 - 320)));
+    margin-top: 100px;
+}
+
+.pilesos__bye {
+    text-align: center;
+}
+
+.pilesos__bye__price {
+    display: flex;
+    margin-left: calc(20px + (460 - 20) * ((100vw - 320px) / (1366 - 320)));
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.old__price {
+    text-decoration-line: line-through;
+    font-size: 12px;
+    color: rgb(78, 78, 78);
+}
+
+.new__price {
+    color: rgb(201, 2, 2);
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.pilesos__bye__dick {
+    border: solid black 0px;
+    background-color: rgb(1, 107, 10);
+    margin-left: calc(100px + (230 - 100) * ((100vw - 320px) / (1366 - 320)));
+    border-radius: 8px;
+    height: 40px;
+    margin-top: 20px;
+    width: 120px;
+    color: antiquewhite;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.about__pilesos {
+    font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (1366 - 320)));
+    ;
+    margin-left: calc(20px + (360 - 20) * ((100vw - 320px) / (1366 - 320)));
+    margin-right: calc(20px + (400 - 20) * ((100vw - 320px) / (1366 - 320)));
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    margin-left: calc(20px + (300 - 20) * ((100vw - 320px) / (1366 - 320)));
+    font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (1366 - 320)));;
+}
+
+.about__title {
+    display: flex;
+
+}
+
+h3 {
+    font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1366 - 320)));
+    margin-left: 10px;
+    color: gray;
+}
+
+.about__characters {
+    display: flex;
+    margin-left: calc(20px + (360 - 20) * ((100vw - 320px) / (1366 - 320)));
+}
+
+.about__charactes__names {
+    border: solid black 0px;
+    border-right: solid 2px;
+    height: 200px;
+    padding-top: 20px;
+    width: 300px;
+    font-size:calc(14px + (18 - 14) * ((100vw - 320px) / (1366 - 320)));
+}
+
+.about__characters__value {
+    border: solid black 0px;
+    height: 200px;
+    padding-top: 20px;
+    width: 300px;
+    text-align: end;
+    padding-right: 20px;
+    font-size:calc(14px + (18 - 14) * ((100vw - 320px) / (1366 - 320)));
+}
