@@ -327,7 +327,7 @@ header {
 }
 
 .main__section-pluses__container {
-    margin-top: calc(-420px + (150 - 420) * ((100vw - 320px) / (1366 - 320)));
+    margin-top: calc(-420px + (250 - 420) * ((100vw - 320px) / (1366 - 320)));
     display: flex;
     flex-direction: column;
     margin-left: calc(20px + (200 - 20) * ((100vw - 320px) / (1366 - 320)));
@@ -500,12 +500,12 @@ h1 {
     border: solid gray 2px;
     border-bottom: solid gray 1px ;
     width: calc(320px + (970 - 320) * ((100vw - 320px) / (1366 - 320)));
-    margin-top: 15%;
+    margin-top: 5%;
     margin-left: calc(-50px + (300 - 0) * ((100vw - 320px) / (1366 - 320)));
     color: black;
-    display: none;
     background-color: rgb(255, 255, 255);  /*    background-color: #EFFACE; */
-    box-shadow: -600px 100px 0px 999px rgba(0, 0, 0, 0.333);
+    box-shadow: -600px 100px 0px 999px rgba(0, 0, 0, 0.433);
+    display: none; 
 }
 
 .shoping-cart__close{
@@ -523,9 +523,27 @@ h1 {
 .ordering{
     text-decoration: none;
     z-index: 10;
-    margin-left: calc(50px + (820 - 50) * ((100vw - 320px) / (1366 - 320)));
+    margin-left: calc(200px + (820 - 200) * ((100vw - 320px) / (1366 - 320)));
     width: 100px;
     margin-top: 20px;
+    background-color: rgb(9, 70, 9);
+    color: #EFFACE;
+    border: solid 0px;
+    font-size: 20px;
+      font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    position: absolute;
+}
+.shoping-cart_remove{
+    margin-bottom: 60px;
+    
+}
+.remove{
+    text-decoration: none;
+    z-index: 10;
+    margin-left: calc(15px + (60 - 15) * ((100vw - 320px) / (1366 - 320)));
+    width: 100px;
+    margin-top: -38px;
     background-color: rgb(9, 70, 9);
     color: #EFFACE;
     border: solid 0px;
@@ -539,7 +557,9 @@ h1 {
     color: #EFFACE;
     z-index: 10;
 
+   
 }
+
 .shoping-cart__properties{
     z-index: 10;
     display: flex;
@@ -554,22 +574,26 @@ h1 {
 .cost{
     font-size:calc(12px + (16 - 12) * ((100vw - 320px) / (1366 - 320))); ;
     z-index: 10;
-    margin-left: calc(100px + (200 - 100) * ((100vw - 320px) / (1366 - 320)));
+    margin-left: calc(75px + (200 - 75) * ((100vw - 320px) / (1366 - 320)));
     color: rgb(148, 147, 147);
     padding-top: 10px;
 }
 .amount{
      font-size:calc(12px + (16 - 12) * ((100vw - 320px) / (1366 - 320))); ;
     z-index: 10;
-    margin-left: 60px;
+    margin-left: 80px;
     color: rgb(148, 147, 147);
     padding-top: 10px;
 }
 .shoping-cart__item{
     z-index: 10;
-    display: flex;
+    display: none;
     color: black;
 }
+.flex__wrapper{
+    display: flex;
+}
+
 .shoping-cart__img{
     z-index: 10;
 margin-left: calc(20px + (50 - 20) * ((100vw - 320px) / (1366 - 320)));
@@ -591,6 +615,7 @@ margin-left: calc(20px + (50 - 20) * ((100vw - 320px) / (1366 - 320)));
     font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1366 - 320)));
     margin-right: 50px;
     margin-left: 5px;
+    width: calc(80px + (260 - 80) * ((100vw - 320px) / (1366 - 320)));
 }
 .shoping-cart__cost__pilosos{
     z-index: 10;
@@ -598,18 +623,39 @@ margin-left: calc(20px + (50 - 20) * ((100vw - 320px) / (1366 - 320)));
     font-weight: 400;
     font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1366 - 320)));
     margin-left: calc(0px + (20 - 0) * ((100vw - 320px) / (1366 - 320)));
-    margin-right: 20px;
-}
-.shopping-cart__value{     background-color: rgb(255, 255, 255);  z-index: 10;
-    border: solid black 0px;
+    margin-right: calc(5px + (20 - 5) * ((100vw - 320px) / (1366 - 320)));
     width: 40px;
+}
+.shoping-cart__total__minus{
+    background-color: white;
+    border: solid 0px;
+}
+.shoping-cart__total__plus{
+    background-color: white;
+    border: solid 0px;
+}
+.input{     background-color: rgb(255, 255, 255);  z-index: 10;
+    border: solid black 0px;
+    width: calc(20px + (40 - 20) * ((100vw - 320px) / (1366 - 320)));
     margin-left: 30px;
     font-family: 'NotoSans', sans-serif;
     font-weight: 400;
     font-size: 14px;
     margin-right: 10px;
 }
-
+.totalprice{
+    text-decoration: none;
+    z-index: 10;
+    margin-left: calc(100px + (440 - 100) * ((100vw - 320px) / (1366 - 320)));
+    width: 100px;
+    margin-top: -30px;
+    color: black;
+    border: solid 0px;
+    font-size: 15px;
+      font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    position: absolute;
+}
 input[type="number"] {
   -moz-appearance: textfield;
 }

@@ -8,6 +8,7 @@ body {
     margin: 0px;
 }
 
+
 .img {
     margin-left: calc(60px + (450 - 60) * ((100vw - 320px) / (1366 - 320)));
     margin-top: 100px;
@@ -44,7 +45,7 @@ body {
     margin-top: 5px;
 }
 
-.pilesos__bye__button {
+.pilesos__bye__dick {
     border: solid black 0px;
     background-color: rgb(1, 107, 10);
     margin-left: calc(100px + (230 - 100) * ((100vw - 320px) / (1366 - 320)));
